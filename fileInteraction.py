@@ -7,7 +7,7 @@ def write_file(array, mode):
     file.close()
     file = open("notes.csv", mode=mode, encoding='utf-8')
     for notes in array:
-        file.write(note.note.to_string(notes))
+        file.write(note.Note.to_string(notes))
         file.write('\n')
     file.close
 
