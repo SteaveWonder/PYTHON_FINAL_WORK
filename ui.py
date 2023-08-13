@@ -10,7 +10,7 @@ def create_note(number):
 
 
 def menu():
-    print("\nThis is NoteApp. Functions:\n\n1 - Output all notes\n2 - Add notes\n3 - Delete notes\n4 - Edit notes\n5 - choose notes by the date\n6 - Shoe notes with it ID\n7 - Exit\n\nInsert function number: ")
+    print("\nThis is NoteApp. Functions:\n\n1 - Output all notes\n2 - Add notes\n3 - Delete notes\n4 - Edit notes\n5 - choose notes by the date\n6 - Show notes with it ID\n7 - Exit\n\nInsert function number: ")
 
 
 def check_len_text_input(text, n):
